@@ -41,7 +41,7 @@ def loop():
                 continue
 
 
-        print("Enter destination for download:")
+        print("Enter destination for download (leave empty to download to desktop)):")
         destination = str(input(">> ")) or "."
 
 
